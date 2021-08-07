@@ -2,7 +2,7 @@
 
 This project is Built with JavaScript, jsPdf, Html2canvas API, jQuery and Allorigins API.
 
-<!-- Visit [LIVE SITE](https://gallant-spence-9aa82a.netlify.app/). -->
+Visit [LIVE SITE](https://mystifying-blackwell-6ac81b.netlify.app/).
 
 ## How to use the App
 

@@ -65,10 +65,10 @@ $(document).ready(function () {
                 const doc = new jsPDF()
                 const image = await canvas.toDataURL("image/png");
                 
-                doc.addImage(image, "PNG", 0, 0, 210, 0);
+                doc.addImage(image, "PNG", 0, 0, 210, 1025);
                
                 // Download Copy of Snapshot
-                await doc.save("snapshot.pdf");
+                doc.save("snapshot.pdf");
                 
                 // Send Snapshot to an API Server
                 await sendSnapshot(image);
