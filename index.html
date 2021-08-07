@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script>
+    <script src="https://html2canvas.hertzen.com/dist/html2canvas.min.js"></script>
+    <script src="https://html2canvas.hertzen.com/dist/html2canvas.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.3.4/jspdf.min.js"></script>
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.0/themes/smoothness/jquery-ui.css">
+    <link rel="shortcut icon" href="/assets/images/favicon.ico" type="image/x-icon">
+    
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <title>Snapshot App</title>
+</head>
+<body>
+    <div class="main">
+        <h2>Select Any of the Images to Create a Snapshot of the Website</h2>
+
+        <div class="sites">
+
+            <div class="box">
+                <em>Website 1: <i>https://www.brescadc.com/</i></em>
+                <br><small>(Root selector for the screenshot :  <b>div.site-content</b>)</small>
+                <div id="site1-container">
+                    <div id="site1">
+                        
+                    </div>
+                </div>
+                <div>
+                    <button id="btn1">Create a Snapshot</button>
+                </div>
+            </div>
+            
+            <div class="box">
+                <em>Website 2: <i>https://www.theproteinbar.com/</i></em>
+                <br><small>(Root selector for the screenshot :  <b>div.site-content</b>)</small>
+                <div id="site2-container">
+                    <div id="site2">
+                        
+                    </div>
+                </div>
+                <div>
+                    <button id="btn2">Create a Snapshot</button>
+                </div>
+            </div>
+            
+            <div class="box">
+                <em>Website 3: <i>https://parked.uniweb.no/</i></em>
+                <br><small>(Root selector for the screenshot :  <b>body</b>)</small>
+                <div id="site3-container">
+                    <div id="site3">
+                        
+                    </div>
+                </div>
+                <div>
+                    <button id="btn3">Create a Snapshot</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+   
+    <div id="output"></div>
+    
+    <script src="/assets/js/main.js"></script>
+</body>
+</html>
