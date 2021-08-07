@@ -20,7 +20,7 @@ $(document).ready(function () {
     const btn3 = "#btn3";
     
     // URL to send Snapshot to
-    const apiUrl = "http://hn.algolia.com/api/v1/search?query=foo&tags=story";
+    const apiUrl = "https://hn.algolia.com/api/v1/search?query=foo&tags=story";
     
     // Invoking the readURLData Function
     readURLData(url1, rootElement1, outputId1);
